@@ -125,7 +125,6 @@ tSimbolo aLex(FILE* fp) {
             else if (strcmp(cadenaAux, "WRITE") == 0) a.simbolo = WRITE;
             else if (strcmp(cadenaAux, "WRITELN") == 0) a.simbolo = WRITELN;
             else if (strcmp(cadenaAux, "CALL") == 0) a.simbolo = CALL;
-            else if (strcmp(cadenaAux, "NUMERO") == 0) a.simbolo = NUMERO;
             else if (strcmp(cadenaAux, "PROCEDURE") == 0) a.simbolo = PROCEDURE;
             else if (strcmp(cadenaAux, "IF") == 0) a.simbolo = IF;
             else if (strcmp(cadenaAux, "THEN") == 0) a.simbolo = THEN;
